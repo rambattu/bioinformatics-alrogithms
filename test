@@ -1,0 +1,58 @@
+Path: 0
+Deleted node: 0
+Path: 0 3
+Deleted node: 3
+Path: 0 3 2
+Deleted next node: 1
+Path: 0 3 2 1
+Deleted node: 1
+Path: 0 3 2 1 0
+New node selected : 2
+Graph: {"0"=>["3"], "1"=>["0"], "2"=>["1", "6"], "3"=>["2"], "4"=>["2"], "5"=>["4"], "6"=>["5", "8"], "7"=>["9"], "8"=>["7"], "9"=>["6"]}
+New graph: {"0"=>["3"], "1"=>["0"], "2"=>["1", "6"], "3"=>["2"], "4"=>["2"], "5"=>["4"], "6"=>["5", "8"], "7"=>["9"], "8"=>["7"], "9"=>["6"]}
+Path: 2
+Deleted next node: 1
+Path: 2 1
+Deleted node: 1
+Path: 2 1 0
+Deleted node: 0
+Path: 2 1 0 3
+Deleted node: 3
+Path: 2 1 0 3 2
+Deleted node: 2
+Path: 2 1 0 3 2 6
+Deleted next node: 5
+Path: 2 1 0 3 2 6 5
+Deleted node: 5
+Path: 2 1 0 3 2 6 5 4
+Deleted node: 4
+Path: 2 1 0 3 2 6 5 4 2
+New node selected : 6
+Graph: {"0"=>["3"], "1"=>["0"], "2"=>["1", "6"], "3"=>["2"], "4"=>["2"], "5"=>["4"], "6"=>["5", "8"], "7"=>["9"], "8"=>["7"], "9"=>["6"]}
+New graph: {"0"=>["3"], "1"=>["0"], "2"=>["1", "6"], "3"=>["2"], "4"=>["2"], "5"=>["4"], "6"=>["5", "8"], "7"=>["9"], "8"=>["7"], "9"=>["6"]}
+Path: 6
+Deleted next node: 5
+Path: 6 5
+Deleted node: 5
+Path: 6 5 4
+Deleted node: 4
+Path: 6 5 4 2
+Deleted next node: 1
+Path: 6 5 4 2 1
+Deleted node: 1
+Path: 6 5 4 2 1 0
+Deleted node: 0
+Path: 6 5 4 2 1 0 3
+Deleted node: 3
+Path: 6 5 4 2 1 0 3 2
+Deleted node: 2
+Path: 6 5 4 2 1 0 3 2 6
+Deleted node: 6
+Path: 6 5 4 2 1 0 3 2 6 8
+Deleted node: 8
+Path: 6 5 4 2 1 0 3 2 6 8 7
+Deleted node: 7
+Path: 6 5 4 2 1 0 3 2 6 8 7 9
+Deleted node: 9
+Path: 6 5 4 2 1 0 3 2 6 8 7 9 6
+6 -> 5 -> 4 -> 2 -> 1 -> 0 -> 3 -> 2 -> 6 -> 8 -> 7 -> 9 -> 6
